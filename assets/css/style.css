@@ -206,139 +206,6 @@ body .is-layout-flex > * {
   width: 1px;
 }
 
-/* NEWSLETTER Section */
-.subscription-form form {
-  margin: auto auto 20px;
-  max-width: 620px;
-  padding-left: 16px;
-  padding-right: 16px;
-}
-
-button,
-input,
-optgroup,
-select,
-textarea {
-  font-family: inherit;
-  font-size: inherit;
-  line-height: inherit;
-  margin: 0;
-}
-
-.text-field {
-  /* -ms-flex-preferred-size: 100%; */
-  /* flex-basis: 100%; */
-  width: auto;
-}
-
-@media (min-width: 568px) {
-  .subscription-form form .content {
-    float: left;
-    width: 80%;
-  }
-  .text-field {
-    margin-right: 8px;
-  }
-}
-
-.subscription-form form h5 {
-  color: #a2aeb7;
-  display: block;
-  font-family: Noto Sans, Sans-Serif;
-  font-size: 12px;
-  font-weight: 700;
-  line-height: 16px;
-  margin: 16px 0 8px;
-  text-transform: uppercase;
-}
-
-.subscription-form form input[type="email"],
-.subscription-form form input[type="text"] {
-  /* background: rgba(123, 140, 152, 0.1); */
-  border-color: #4a5b68;
-  border-radius: 2px;
-  color: #7b8c98;
-  font-size: 16px;
-  margin: 0;
-  min-height: 50px;
-  padding: 15px;
-  position: relative;
-  width: 100%;
-  z-index: 2;
-}
-
-/* I am 18 */
-.subscription-form form .wp-block-smg-addon-form-checkbox {
-  margin-top: 15px;
-}
-
-.subscription-form
-  form
-  .wp-block-smg-addon-form-checkbox
-  input[type="checkbox"] {
-  margin-right: 10px;
-}
-
-label {
-  display: inline-block;
-}
-/* BUTTON */
-
-.subscription-form form button {
-  background: #44be4c;
-  border: 0;
-  border-radius: 2px;
-  color: #fff;
-  cursor: pointer;
-  font-family: neo-sans, sans-serif;
-  font-size: 16px;
-  font-weight: 700;
-  height: 54px;
-  margin-top: 10px;
-  padding: 10px 20px;
-  white-space: nowrap;
-  width: 100%;
-}
-
-@media (min-width: 568px) {
-  .subscription-form form .act-btn {
-    float: right;
-    margin-top: 40px;
-    width: 20%;
-  }
-}
-
-[type="button"]:not(:disabled),
-[type="reset"]:not(:disabled),
-[type="submit"]:not(:disabled),
-button:not(:disabled) {
-  cursor: pointer;
-}
-
-@media (min-width: 568px) {
-  .subscription-form form button {
-    margin-top: 0;
-    width: auto;
-  }
-}
-
-.subscription-form form button {
-  background: #44be4c;
-  border: 0;
-  border-radius: 2px;
-  color: #fff;
-  /* cursor: pointer; */
-  font-family: neo-sans, sans-serif;
-  font-size: 16px;
-  font-weight: 700;
-  height: 54px;
-  /* margin-top: 10px; */
-  padding: 10px 20px;
-  white-space: nowrap;
-  /* width: 100%; */
-}
-/* NEWSLETTER Section End */
-
 .subscription-form form .clear {
   clear: both;
 }
@@ -409,11 +276,15 @@ body .is-layout-constrained > * + * {
   font-size: calc(1rem + 1.5vw);
 }
 
-#modal a {
+/* #modal a {
+  margin-right: 60px;
+} */
+
+#modal #yes-btn {
   margin-right: 60px;
 }
 
-#close-btn {
+#close-btn, #yes-btn {
   background-color: transparent;
   border: none;
   cursor: pointer;
